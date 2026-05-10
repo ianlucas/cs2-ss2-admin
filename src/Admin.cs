@@ -19,7 +19,7 @@ public partial class Admin(ISwiftlyCore core) : BasePlugin(core)
 {
     public override void Load(bool hotReload)
     {
-        Swiftly.Initialize();
+        Runtime.Initialize();
         ConVars.Initialize();
     }
 
