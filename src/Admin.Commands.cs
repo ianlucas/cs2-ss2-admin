@@ -15,7 +15,7 @@ public partial class Admin
         var player = context.Sender;
         if (
             player == null
-            || Swiftly.Core.Permission.PlayerHasPermissions(
+            || Runtime.Core.Permission.PlayerHasPermissions(
                 player.SteamID,
                 PermissionHelpers.Split(ConVars.RconRole.Value)
             )
