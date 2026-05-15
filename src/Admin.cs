@@ -13,7 +13,7 @@ namespace Admin;
     Version = "1.0.0",
     Name = "Admin",
     Author = "Ian Lucas",
-    Description = "Commands for administrators."
+    Description = "A SwiftlyS2 plugin for administrators"
 )]
 public partial class Admin(ISwiftlyCore core) : BasePlugin(core)
 {
